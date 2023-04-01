@@ -1,19 +1,23 @@
 {
-    "name": "rish-0593/testing",
-    "description": "This is for testing purpose.",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Rish0593\\Testing\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Rishabh Kumar",
-            "email": "kumarrishabh050@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "rish-0593/testing",
+  "description": "This is for testing purpose.",
+  "type": "library",
+  "homepage": "https://github.com/rish-0593/testing",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Rish0593\\Testing\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rishabh Kumar",
+      "email": "kumarrishabh050@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
