@@ -13,10 +13,16 @@ Manually add the service provider in your config/app.php file:
 ]
 ```
 
-Run the migration
+Run the migration:
 
 ```bash
 php artisan migrate
+```
+
+To publish the config, run the vendor publish command:
+
+```bash
+php artisan vendor:publish --provider="Rish0593\Testing\TestingServiceProvider" --tag=config
 ```
 
 ## License
