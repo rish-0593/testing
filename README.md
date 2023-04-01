@@ -9,7 +9,7 @@ Manually add the service provider in your config/app.php file:
 ```php
 'providers' => [
     // ...
-    Spatie\Permission\PermissionServiceProvider::class,
+    Rish0593\Testing\TestingServiceProvider::class,
 ]
 ```
 
